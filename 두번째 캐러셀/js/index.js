@@ -33,3 +33,8 @@ function movePrevStep() {
   }
   upDate();
 }
+function auto() {
+  moveNextStep()
+  upDate()
+}
+setInterval(auto,2000)
