@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background: #f2f2f2;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 900px;
+  height: 100px;
+  overflow: hidden;
+}
+.wrap {
+  display: flex;
+  margin: 0 auto;
+  width: 400px;
+}
+.hi {
+  display: inline-block;
+}
+.bye {
+  display: none;
+}
+.wrap li {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.item1 {
+  background-color: azure;
+}
+.item2 {
+  background-color: cadetblue;
+}
+.item3 {
+  background-color: beige;
+}
+.item4 {
+  background-color: blue;
+}
+.item5 {
+  background-color: blueviolet;
+}
+.item6 {
+  background-color: antiquewhite;
+}
+.item7 {
+  background-color: aqua;
+}
