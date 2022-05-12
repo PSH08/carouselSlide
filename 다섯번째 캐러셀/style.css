@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.wrapper {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s ease-out;
+}
+.slides li {
+  float: left;
+}
